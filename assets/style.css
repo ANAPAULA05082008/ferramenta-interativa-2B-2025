@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(174, 45, 22);
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    width: 100;
+    
+}
