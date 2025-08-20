@@ -81,3 +81,7 @@ margin-top: 0,5rem;
 
     transform: rotateY (180deg);
 }
+.cartao__conteudo_pergunta,
+.cartao__conteudo_resposta{
+    backface-visibility: hidden;
+}
