@@ -52,6 +52,8 @@ margin-top: 0,5rem;
      text-align: center;
     background-color: var(--card-front-color);
     height: 100%;
+    transform-style: preserve-3d;
+    transition: trasoform 300ms ease-in-out;
 }
 
 .cartao__conteudo h3{
@@ -74,4 +76,8 @@ margin-top: 0,5rem;
   
     color: var(--card-back-color);
     font-weight: 700;
+}
+.cartao::hoverr .cartao__conteudo{
+
+    transform: rotateY (180deg);
 }
