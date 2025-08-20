@@ -65,11 +65,13 @@ margin-top: 0,5rem;
       font-size: 1vw;
 }
 
-.cartao__conteudo_pergunta {
+.cartao__conteudo_pergunta p{
 
     color:var(--text-color);
+    font-weight: 500;
 }
-.cartao__conteudo_resposta{
-
+.cartao__conteudo_resposta p{
+  
     color: var(--card-back-color);
+    font-weight: 700;
 }
