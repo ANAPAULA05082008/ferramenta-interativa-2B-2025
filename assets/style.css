@@ -1,7 +1,15 @@
+
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
+}
+
 body {
-    background-color: rgb(174, 45, 22);
+    background: url (img/bg-desktop.webp);
     font-family: bai jamjuree;
 }
+
 footer{
     background-color: black;
     color: aliceblue;
@@ -10,20 +18,24 @@ footer{
     width: 100;
     height: 2rem;
 }
+
 footer P{
 text-align: center;
 font-size: 1rem;
 margin-top: 0,5rem;
 }
+
 #container{
       display:flex
 }
+
 .cartao{
     margin:irem irem;
     background-color: aqua;
     height: 20rem;
     flex-grow: 1;
 }
+
 /* código omitido */
 
 #container {
@@ -44,7 +56,8 @@ margin-top: 0,5rem;
 }
 
 .cartao__conteudo h3{
-      background-color: rgb(192, 192, 30);
+      color: var(--text-color);
+      border: ipx solid var(--text-color);
       text-align: left;
       padding: 0.5rem;
       position: absolute;
