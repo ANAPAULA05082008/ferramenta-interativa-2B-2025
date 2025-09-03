@@ -68,7 +68,7 @@ footer p {
     font-weight: 700;
 }
 .cartao:hover .cartao__conteudo{
-    transform: rotate(180deg);
+    transform: rotateY(180deg);
 }
 .cartao__conteudo__pergunta,
 .cartao__conteudo__resposta{
