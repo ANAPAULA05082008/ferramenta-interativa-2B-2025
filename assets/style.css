@@ -84,4 +84,8 @@ margin-top: 0,5rem;
 .cartao__conteudo_pergunta,
 .cartao__conteudo_resposta{
     backface-visibility: hidden;
+    position: absolute;
+}
+.cartao__conteudo__RESPOSTA{
+    transform: rotateY(180deg);
 }
