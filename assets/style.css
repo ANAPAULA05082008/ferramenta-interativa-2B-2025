@@ -66,6 +66,12 @@ margin-top: 0,5rem;
       border-radius: 0.6rem
       font-size: 1vw;
 }
+.cartao__conteudo p{
+   margin-top: 4rem;
+   padding: 2rem;
+}
+
+
 
 .cartao__conteudo_pergunta p{
 
@@ -86,8 +92,7 @@ margin-top: 0,5rem;
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
-    width: 100%03/09/25;
-
+    width: 100%;
 }
 .cartao__conteudo__RESPOSTA{
     transform: rotateY(180deg);
